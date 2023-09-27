@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #e3f988;
+  --secondary: #1b4d3e;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  border: 10px solid #000;
+  border-radius: 5px;
+  height: 100dvh;
+  background: var(--primary);
+}
+
+.header {
+  margin: 2rem;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row1 .heading {
+  color: var(--secondary);
+  font-size: 4rem;
+}
+
+span {
+  color: var(--secondary);
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 1rem;
+  color: var(--secondary);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 30rem;
+  cursor: pointer;
+}
+
+.images {
+  position: relative;
+  margin-left: 10rem;
+}
+
+.images img {
+  position: absolute;
+  width: 20rem;
+  height: 28rem;
+  border-radius: 5px;
+}
+
+.images img:nth-child(1) {
+  transform: rotate(0deg);
+}
+.images img:nth-child(2) {
+  transform: rotate(-20deg);
+}
+.images img:nth-child(3) {
+  transform: rotate(20deg);
+}
+
+.img1 {
+  visibility: hidden;
+}
+.img2 {
+  visibility: hidden;
+}
+.img3 {
+  visibility: hidden;
+}
+
+.btn {
+  margin-top: 19rem;
+}
+
+.btn button {
+  margin-left: 35rem;
+  width: 13rem;
+  height: 4rem;
+  border: none;
+  background: var(--secondary);
+  color: var(--primary);
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.btn p {
+  width: 27%;
+  margin-left: 36rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--secondary);
+}
