@@ -9,7 +9,7 @@ Green Earth landing page.
 
 ## Demo
 
-Insert gif or link to demo
+![link](https://green-earth-seven.vercel.app/)
 
 ## Screenshots
 
